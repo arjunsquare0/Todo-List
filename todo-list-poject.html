@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="C:\Users\arjun\OneDrive\Desktop\python\new\style\todo-list-project.css">
+</head>
+<body>
+    <P class="Todo-name">Todo List Practice 1</P>
+
+    <input type="text" id='js-Todo-name' placeholder="Todo name" onkeydown="
+        handleName(event);
+    ">
+    <button onclick="
+        addName();
+    ">Add</button>
+
+    <div class="js-container1"></div>
+
+    <P class="Todo-name">Todo List Practice 2</P>
+
+    <input type="text" placeholder="Todo name" id='js-Todo-name2' onkeydown="
+        handleName2(event);
+    ">
+    <button onclick="
+        addName2();
+    ">Add</button>
+
+    <div class="js-container2"></div>
+
+    <P class="Todo-name">Todo List</P>
+
+    <div class="todo-input-grid">
+        <input type="text" placeholder="Todo name" class="input-Todo-name js-Todo-name3">
+        <input type="date" class="date-btn js-due-date">
+        <button class="Add-btn js-Add-btn">Add</button>
+    </div>
+
+    <div class="js-container3 todo-grid"></div>
+    
+    <script src="C:\Users\arjun\OneDrive\Desktop\python\new\script\todo-list-project.js"></script>
+</body>
+</html>

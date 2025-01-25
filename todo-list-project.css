@@ -1,0 +1,47 @@
+.Todo-name{
+    font-size: 20px; 
+    font-family: Arial,'sans-serif';
+}
+
+.input-Todo-name{
+    height: 30px;
+}
+
+.Add-btn{
+    background-color: green;
+    color: white;
+    height: 35px;
+    width: 75px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding:10px 0px;
+}
+
+.date-btn{
+    height: 31px;
+}
+
+.todo-grid,.todo-input-grid{
+    display: grid;
+    grid-template-columns: 169.6px 114.33px 75px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+
+.todo-input-grid{
+    margin-bottom: 10px;
+    align-items: stretch;
+}
+
+.delete-btn{
+    background-color: rgb(104, 12, 12);
+    color: white;
+    height: 35px;
+    width: 75px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding:10px 0px;
+}
